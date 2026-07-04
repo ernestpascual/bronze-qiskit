@@ -28,6 +28,11 @@ Bronze also has notebooks on the basic math to review your knowledge on the simp
 
 Our following elementrary level tutorial _Silver_ is under revision now, and we will start to prepare the advanced level tutorial Gold in 2021.
 
+## Personal Notes & Updates
+
+- Added personal notes for some of the Jupyter notebooks.
+- Updated various scripts and notebooks to use Qiskit 2.5.0 (migrated from Qiskit 1.0.0).
+
 ## Contribution
 
 Please make a pull request or create an issue for _reporting typo_ or _your corrections_.
