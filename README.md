@@ -6,6 +6,12 @@
 > ### Ernest's Notes
 > * **Updates**: Added personal notes to various Jupyter notebooks and updated multiple scripts/notebooks to support Qiskit 2.5.0 (migrated from Qiskit 1.0.0).
 > * **Running Jupyter Notebooks Locally**: Run `jupyter notebook` in the project root directory. See the [Running Jupyter Notebooks Locally](#running-jupyter-notebooks-locally) section below for detailed instructions.
+> * **Rendering MathJax Macros**: If markdown matrices or state notations (e.g., `\myvector`, `\pstate`) do not display correctly, add this snippet to a code cell at the top of your notebook and run it:
+>   ```python
+>   from IPython.display import HTML
+>   HTML(r'<script>MathJax.Hub.Config({TeX: {macros: {myvector: ["\\begin{pmatrix}#1\\end{pmatrix}", 1], pstate: ["\\ket{#1}", 1]}}});</script>')
+>   ```
+>   After running the cell, re-run (reload) the markdown cells to properly render the custom matrix and state notations.
 > * Please refer to the [sections below](#bronze-qiskits-sections) to follow the main coursework and tutorial details.
 
 **Bronze** is our introductory tutorial on _**quantum computing and quantum programming**_ created in October 2018.
