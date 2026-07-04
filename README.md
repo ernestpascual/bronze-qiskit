@@ -2,6 +2,12 @@
 
 ## [QWorld](https://qworld.net)'s Bronze-Qiskit
 
+> [!NOTE]
+> ### Ernest's Notes
+> * **Updates**: Added personal notes to various Jupyter notebooks and updated multiple scripts/notebooks to support Qiskit 2.5.0 (migrated from Qiskit 1.0.0).
+> * **Running Jupyter Notebooks Locally**: Run `jupyter notebook` in the project root directory. See the [Running Jupyter Notebooks Locally](#running-jupyter-notebooks-locally) section below for detailed instructions.
+> * Please refer to the [sections below](#bronze-qiskits-sections) to follow the main coursework and tutorial details.
+
 **Bronze** is our introductory tutorial on _**quantum computing and quantum programming**_ created in October 2018.
 
 **Bronze-Qiskit** is the version of Bronze using [**Qiskit**](https://qiskit.org) as the quantum programming framework. It was released in February 2021 with the support of [**IBM Quantum**](https://www.ibm.com/quantum-computing/).
@@ -28,10 +34,16 @@ Bronze also has notebooks on the basic math to review your knowledge on the simp
 
 Our following elementrary level tutorial _Silver_ is under revision now, and we will start to prepare the advanced level tutorial Gold in 2021.
 
-## Personal Notes & Updates
+### Running Jupyter Notebooks Locally
+To run the notebooks locally, execute the following command in the project root directory:
+```bash
+jupyter notebook
+```
 
-- Added personal notes for some of the Jupyter notebooks.
-- Updated various scripts and notebooks to use Qiskit 2.5.0 (migrated from Qiskit 1.0.0).
+**Additional Notes for Running:**
+- Ensure that you have Python installed and your virtual environment activated containing the correct version of Qiskit.
+- The command starts a local web server (by default at `http://localhost:8888/`) and opens a browser window displaying the project files.
+- If it does not open automatically, copy the URL provided in the terminal logs and paste it into your browser.
 
 ## Contribution
 
